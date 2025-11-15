@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GPT 5.1 - Modern Web Showcase</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div id="canvas-container"></div>
+    
+    <div class="lenis-container">
+        <div class="glass-wrapper">
+            <nav class="navbar">
+                <div class="logo">GPT 5.1</div>
+                <ul class="nav-links">
+                    <li><a href="#showcase">Showcase</a></li>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#technology">Technology</a></li>
+                </ul>
+            </nav>
+
+            <section id="showcase" class="hero">
+                <div class="hero-content">
+                    <h1 class="hero-title">Modern Web Design</h1>
+                    <p class="hero-subtitle">Live 3D backgrounds with glassmorphism effects</p>
+                    <button class="cta-button">Explore Now</button>
+                </div>
+            </section>
+
+            <section id="features" class="features-section">
+                <h2>Features</h2>
+                <div class="features-grid">
+                    <div class="feature-card glass-card">
+                        <h3>3D Background</h3>
+                        <p>Interactive Three.js scene with smooth animations</p>
+                    </div>
+                    <div class="feature-card glass-card">
+                        <h3>Glassmorphism</h3>
+                        <p>Modern frosted glass UI with blur and transparency effects</p>
+                    </div>
+                    <div class="feature-card glass-card">
+                        <h3>Smooth Scroll</h3>
+                        <p>Precise scroll effects with Lenis for fluid interactions</p>
+                    </div>
+                    <div class="feature-card glass-card">
+                        <h3>Responsive Design</h3>
+                        <p>Adaptive grid layout that works seamlessly on mobile and desktop</p>
+                    </div>
+                    <div class="feature-card glass-card">
+                        <h3>GSAP Animations</h3>
+                        <p>Advanced timeline-based animations with high performance</p>
+                    </div>
+                    <div class="feature-card glass-card">
+                        <h3>Inter Typography</h3>
+                        <p>Premium typeface for excellent readability and modern aesthetics</p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="technology" class="tech-section">
+                <h2>Tech Stack</h2>
+                <div class="tech-grid">
+                    <div class="tech-item">
+                        <h4>Three.js</h4>
+                        <p>3D JavaScript library</p>
+                    </div>
+                    <div class="tech-item">
+                        <h4>GSAP</h4>
+                        <p>Animation platform</p>
+                    </div>
+                    <div class="tech-item">
+                        <h4>Lenis</h4>
+                        <p>Smooth scroll library</p>
+                    </div>
+                    <div class="tech-item">
+                        <h4>Vite</h4>
+                        <p>Next gen frontend tooling</p>
+                    </div>
+                </div>
+            </section>
+
+            <footer class="footer">
+                <p>&copy; 2025 GPT 5.1. Built with modern web technologies.</p>
+            </footer>
+        </div>
+    </div>
+
+    <script type="importmap">
+    {
+        "imports": {
+            "three": "https://esm.sh/three@r128",
+            "gsap": "https://esm.sh/gsap@3.12.0",
+            "lenis": "https://esm.sh/lenis@1.0.0"
+        }
+    }
+    </script>
+    <script type="module" src="./main.js"></script>
+</body>
+</html>
